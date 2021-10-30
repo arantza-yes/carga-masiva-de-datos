@@ -15,7 +15,7 @@
 
 <img src="./MicrosoftTeams-image.png" />
 
-### Antes - Prueba
+### Despues - Proyecto
 
 <img src="./images/prueba.jpg" />
 

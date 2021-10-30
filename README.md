@@ -1,4 +1,4 @@
-# Como usar la prueba
+# Como usar el proyecto CARGA MASIVA
 
 - 1. ejecutarlo en un servidor
 - 2. cuando se abre por primera vez el proyecto esta vacio, pero tiene que ser cargado
@@ -17,9 +17,10 @@
 
 ### Antes - Prueba
 
-<img src="../images/prueba.jpg" />
+<img src="./images/prueba.jpg" />
 
 ### Extras
 
 - Set -> use la estructura de datos set porque en el archivo json hay tipos de datos repetidos, entences en el select repetia datos, lo que hice fue ver si hay datos repetidos ponerlo en uno solo pero no modifica el json.
+
 # carga-masiva-de-datos

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carga Masiva</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="fondo container-fluid">
+      <div class="container">
+        <h1 class="textShadow text-white pt-3 fs-2 fw-bold text-center">
+          Carga de Resultados de Monitoreo
+        </h1>
+      </div>
+      <form class="row">
+        <div class="col">
+          <div class="d-flex flex-column container mt-4">
+            <div>
+              <label class="labeles" for="anio">Año:</label>
+              <select class="anio form-select" name="" id="anio"></select>
+            </div>
+
+            <div>
+              <label class="labeles" for="">Plan de Monitoreo:</label>
+              <select class="anio form-select" name="" id="plan"></select>
+            </div>
+
+            <div>
+              <label class="labeles" for="">Tipo de codigo:</label>
+              <select class="anio form-select" name="" id="codigo">
+                <!-- <option value="">---</option> -->
+              </select>
+            </div>
+
+            <div>
+              <p class="labeles">Archivo:</p>
+              <div class="d-flex">
+                <label class="files text-white" for="file-input"
+                  >Subir Archivo
+                  <span
+                    ><img src="./images/subiendo-archivos.png" alt="" /></span
+                ></label>
+                <span class="p text-white" id="p"></span>
+              </div>
+              <input
+                style="display: none"
+                class="archivo"
+                type="file"
+                id="file-input"
+              />
+            </div>
+          </div>
+          <div class="mt-5 ps-4">
+            <button
+              class="btn bg-dark text-white shadow"
+              id="cargar"
+              type="button"
+            >
+              Mostrar Resultados
+            </button>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="mt-3">
+            <table
+              class="table text-white"
+              style="display: none"
+              id="mostrarTabla"
+            >
+              <tr>
+                <th>Año</th>
+                <th>Plan de Monitoreo</th>
+                <th>Historial</th>
+                <th>Codigo</th>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

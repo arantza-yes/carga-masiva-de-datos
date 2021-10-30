@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "anio": 2003,
+        "plan": 
+            {
+                "consumo": "humano",
+                "historial":[100,200,300]
+            }
+        ,
+        "codigo": "laboratorio"
+    },
+    {
+        "id": 2,
+        "anio": 2002,
+        "plan": 
+        {
+            "consumo": "alien",
+            "historial":[100,200,300]
+        }
+        ,
+        "codigo": "nave"
+    },
+    {
+        "id": 3,
+        "anio": 2003,
+        "plan": 
+            {
+                "consumo": "humano",
+                "historial":[600,200,800]
+            }
+        ,
+        "codigo": "laboratorio"
+    },
+    {
+        "id": 4,
+        "anio": 2002,
+        "plan": 
+            {
+                "consumo": "zombie",
+                "historial":[600,200,800]
+            }
+        ,
+        "codigo": "trenes"
+    },
+    {
+        "id": 5,
+        "anio": 2001,
+        "plan": 
+            {
+                "consumo": "alien",
+                "historial":[600,200,800]
+            }
+        ,
+        "codigo": "espicimenes"
+    }
+]

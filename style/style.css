@@ -1,0 +1,38 @@
+.fondo {
+  height: 100vh;
+  /* background-image: linear-gradient(15deg, #13547ad3 0%, #80d0c7bb 100%),
+    url('../images/bg.png'); */
+  background-image: linear-gradient(to top, #30d0d080 0%, #33086775 100%),
+    url('../images/bg.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.textShadow {
+  text-shadow: 2px 2px 2px black;
+}
+
+.anio {
+  width: 200px;
+  max-width: 500px;
+}
+
+.labeles {
+  text-shadow: 1px 1px 1px black;
+  font-size: 20px;
+  color: #fff;
+  padding-right: 10px;
+  font-weight: 500;
+}
+.files {
+  background-color: #4354b5;
+  /* border: 1px solid black; */
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.p {
+  padding-top: 7px;
+  padding-left: 7px;
+}
